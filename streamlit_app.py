@@ -23,7 +23,7 @@ MODEL_FILENAME = "food_classifier_mobilenetv2.keras"
 LABELS_FILENAME = "class_names.json"
 IMG_SIZE = 224
 TRUST_THRESHOLD = 0.40   # below this we still show the prediction but mark it "off-menu"
-SAMPLE_DIR = Path(__file__).parent / "images"
+SAMPLE_DIR = Path(__file__).parent / "sample_images"
 
 st.set_page_config(
     page_title="Food Classifier",
